@@ -15,5 +15,5 @@ class Juego {
 }
 
 function empezarJuego() {
-  var juego = new Juego()
+  var jeugo = new jeugo()
 }
