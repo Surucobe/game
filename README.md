@@ -1,2 +1,2 @@
 # game
-a game made in javascript
+a game made in javascript classes
