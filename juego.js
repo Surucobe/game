@@ -37,19 +37,6 @@ class Juego {
 
   transformarNumeroAColor(numero) {
     switch (numero) {
-      case 'celeste':
-        return 0
-      case 'violeta':
-        return 1
-      case 'naranja':
-        return 2
-      case 'verde':
-        return 3
-    }
-  }
-
-  transformarColorANumero(color) {
-    switch (color) {
       case 0:
         return 'celeste'
       case 1:
@@ -58,6 +45,19 @@ class Juego {
         return 'naranja'
       case 3:
         return 'verde'
+    }
+  }
+
+  transformarColorANumero(color) {
+    switch (color) {
+      case 'celeste':
+        return 0
+      case 'violeta':
+        return 1
+      case 'naranja':
+        return 2
+      case 'verde':
+        return 3
     }
   }
 
