@@ -121,7 +121,7 @@ class Juego {
   }
 
   ganaste() {
-    swal('From suru:', 'Love you anna', 'success')
+    swal('Victory!', 'Ganaste', 'success')
     .then(this.inicializar)
   }
 
